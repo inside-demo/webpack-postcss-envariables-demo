@@ -1,0 +1,7 @@
+:root {
+  --contextPath: env.contextPath
+}
+
+.selector {
+  background-image: url('var(--contextPath)/img.png');
+}
